@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logobit{
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+    /* padding: 60px; */
+}
+
+#username{
+border: none;
+    border-bottom: 1px solid rgb(99,107,120);
+    margin-left: 30px;
+    width: 280px;
+    margin-bottom: 40px;
+}
+#Password {
+    border: none;
+    border-bottom: 1px solid rgb(99,107,120);
+    margin-left: 30px;
+    width: 280px;
+}
+
+.fgt{
+margin-left: 30px;
+text-decoration: none;
+}
