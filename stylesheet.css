@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
 .logobit{
     width: 250px;
     height: 200px;
@@ -11,7 +14,8 @@
 }
 
 #username{
-border: none;
+    border: none;
+    outline: none;
     border-bottom: 1px solid rgb(99,107,120);
     margin-left: 30px;
     width: 280px;
@@ -19,6 +23,7 @@ border: none;
 }
 #Password {
     border: none;
+    outline: none;
     border-bottom: 1px solid rgb(99,107,120);
     margin-left: 30px;
     width: 280px;
@@ -27,4 +32,62 @@ border: none;
 .fgt{
 margin-left: 30px;
 text-decoration: none;
+font-size: 14px;
+}
+
+Button{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 280px;
+    height:40px;
+    background-color: rgb(255,72,0);
+    color: white;
+    border: none;
+}
+
+p{
+    margin-left: 70px;
+    color: #636b78;
+    font-size: 1.125em;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 00px;
+    height: 0px;
+    border: none;
+    background-color: transparent;
+    color: #636b78;
+    margin-right: 50px;
+    margin-block-end: 20px;
+    max-height: 80%;
+}
+
+.footer{
+    margin-top: 12em;
+}
+.footer a{
+    margin-top: 10px;
+}
+.bgcarl{
+    max-height: 96vh;
+}
+.warpper{
+    max-height: 96vh;
+}
+
+.ttp{
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+
+.countries{
+    position:absolute;
+    top: 88%;
+    left: 19%;
 }

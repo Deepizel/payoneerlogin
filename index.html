@@ -10,17 +10,26 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/bc5f7b8c8c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="stylesheet.css" />
     <title>Login</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="wrapper container-fluid">
       <div class="row">
         <div class="col-4">
           <img class="logobit" src="paylogo.svg" alt="logo" />
           <form>
-            <input type="text" id="username" placeholder="Email or username" />
-            <br />
+            <input type="text" id="username" placeholder="Email or username " />
+            <button
+              type="button"
+              class="ttp btn btn-secondary"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="In most cases, this is the email address associated with your Payoneer account"
+            >
+              <i class="fa-thin fa-exclamation"></i>
+            </button>
             <input type="text" id="Password" placeholder="Password" />
             <br />
             <a class="fgt" href="#">Forgot password?</a><br />
@@ -32,14 +41,14 @@
             <a href="#">© 2005-2022 Payoneer Inc</a> |
             <a href="#">Contact Us</a> |
             <!-- Default dropup button -->
-            <div class="btn-group dropup">
+            <div class="countries btn-group dropup">
               <button
                 type="button"
                 class="btn btn-secondary dropdown-toggle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                English
+                <i class="fa-thin fa-globe"></i>English
               </button>
               <ul class="dropdown-menu">
                 <!-- Dropdown menu links -->
@@ -58,7 +67,7 @@
           </div>
         </div>
         <div class="col-8">
-          <img src="bearededman.jpg" alt="man watching" />
+          <img class="bgcarl" src="bearededman.jpg" alt="man watching" />
         </div>
       </div>
     </div>
